@@ -1,6 +1,6 @@
-# Value Backtester (Python)
+# market-analysis-backtester (Python)
 
-A compact, extendable backtesting project that identifies undervalued stocks using simple valuation methods (DCF + comparables) and simulates a long-only trading strategy. Provides both an interactive Streamlit app and a Jupyter Notebook for step-by-step analysis.
+A compact, extendable backtesting project that identifies undervalued stocks using simple valuation methods (DCF + comparables) and simulates a long-only trading strategy. 
 
 ## What this project does
 - Loads historical price data from **yfinance** or a **CSV** you select manually.
@@ -63,10 +63,7 @@ value-backtester/
    - Use the widgets to select **CSV outside the project folder** or fetch from yfinance.
    - Run the pipeline cell to see stats and charts.
 
-## Extending the project
-- Replace `src/valuation.py::dcf_simple` with a detailed DCF using company financials.
-- Add fundamental data loader (e.g., financial statements from APIs).
-- Improve execution model (transaction costs, slippage).
+
 - Add portfolio optimization (risk parity, mean-variance).
 
 ## Notes / Warnings
